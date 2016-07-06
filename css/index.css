@@ -82,7 +82,7 @@ footer {
    left: 200px;
    
 }
-#about {
+#abouthead {
     font-family: 'Slabo 27px', serif;
    font-size: 80px;
    text-align: center;
@@ -103,6 +103,43 @@ footer {
 }
 
 .textabout {
-    color: white;
+    color: white; 
     
+}
+.example {
+    font-size: 80px;
+    color: white;
+}
+#about {
+    position: relative;
+    top: 900px;
+    left: 400px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    
+    
+}
+#text {
+    
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    text-align: left;
+    color: grey;
+    line-height: 1.3;
+    
+    width: 700px;
+    height: auto;
+    position: relative;
+    top: 700px;
+    left: 550px;
+}
+#myphoto {
+    position: relative;
+    top: 1200px;
+    right: 400px;
+    width: 400px;
+    height: 500px;
+    background-color: red;
 }
