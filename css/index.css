@@ -65,9 +65,8 @@ footer {
     margin: 0;
     text-align:center;
     width: 100%;
-    
-    
 }
+    
 #footerline {
     color: #C0A062;
 }
@@ -114,7 +113,7 @@ footer {
     position: relative;
     top: 900px;
     left: 400px;
-    color: white;
+    color: #C0A062;
     font-family: 'Montserrat', sans-serif;
     font-size: 90px;
     text-align: center;
@@ -148,7 +147,7 @@ footer {
     height: 1000px;
 }
 #work {
-     color: white;
+     color: #C0A062;
     font-family: 'Montserrat', sans-serif;
     font-size: 90px;
     text-align: center;
@@ -170,7 +169,7 @@ footer {
     height: 1000px;
 }
 #contact {
-    color: white;
+    color: #C0A062;
     font-family: 'Montserrat', sans-serif;
     font-size: 90px;
     text-align: center;
@@ -232,4 +231,34 @@ input[type=submit]:hover {
 }
 #area {
     height: 150px;
+}
+#phone {
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 830px;
+    top: -350px;
+}
+#mail {
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    left: 520px;
+    top: -200px;
+}
+.icons {
+    position: relative;
+    top: -70px;
+    left: 290px;
+}
+#face {
+    position: relative;
+    right: 30px;
+    
+}
+#vk {
+    position: relative;
+    left: 30px;
 }
