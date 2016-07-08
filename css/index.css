@@ -77,20 +77,20 @@ footer {
 /*MAIN CONTENT*/
 #first {
     position: relative;
-    top: 120px;
+    top: 200px;
    left: 200px;
    
 }
 #abouthead {
-    font-family: 'Slabo 27px', serif;
+   font-family: 'Merriweather', serif;
    font-size: 80px;
    text-align: center;
    color: #C0A062;
 }
 #second {
     position: relative;
-    top: 600px;
-    right: 300px;
+    top: 450px;
+    left: 330px;
     width: 700px;
     height: auto;
     
@@ -111,7 +111,7 @@ footer {
 }
 #about {
     position: relative;
-    top: 900px;
+    top: 750px;
     left: 400px;
     color: #C0A062;
     font-family: 'Montserrat', sans-serif;
@@ -131,12 +131,12 @@ footer {
     width: 700px;
     height: auto;
     position: relative;
-    top: 700px;
+    top: 550px;
     left: 550px;
 }
 #myphoto {
     position: relative;
-    top: 1200px;
+    top: 1050px;
     right: 400px;
     width: 400px;
     height: 500px;
@@ -289,4 +289,13 @@ textarea {
 #textabout a:hover {
     color: #C0A062;
      text-decoration: none;
+}
+#whoiam {
+    font-family: 'Bangers', cursive;
+    font-size: 180px;
+    color: black;
+    position: relative;
+    top: -1000px;
+    z-index: -1;
+    
 }
