@@ -56,7 +56,7 @@ footer {
     display: block;
 }
 #footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     background-color:black;
@@ -93,7 +93,7 @@ footer {
     left: 330px;
     width: 700px;
     height: auto;
-    
+   
     font-family: 'Slabo 27px', serif;
     font-size: 35px;
     text-align: left;
@@ -299,3 +299,4 @@ textarea {
     z-index: -1;
     
 }
+
