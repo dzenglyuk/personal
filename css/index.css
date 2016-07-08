@@ -202,7 +202,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: grey;
 }
 
 #form {
@@ -212,6 +212,17 @@ input[type=submit]:hover {
     position: relative;
     top: 100px;
     right: 450px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
 }
 #send {
     color: white;
@@ -229,16 +240,14 @@ input[type=submit]:hover {
     position: relative;
     right: 100px;
 }
-#area {
-    height: 150px;
-}
+
 #phone {
     font-family: 'Slabo 27px', serif;
     font-size: 30px;
     color: white;
     position: relative;
     left: 830px;
-    top: -350px;
+    top: -320px;
 }
 #mail {
     font-family: 'Slabo 27px', serif;
@@ -246,11 +255,11 @@ input[type=submit]:hover {
     color: white;
     position: relative;
     left: 520px;
-    top: -200px;
+    top: -170px;
 }
 .icons {
     position: relative;
-    top: -70px;
+    top: -40px;
     left: 290px;
 }
 #face {
@@ -261,4 +270,23 @@ input[type=submit]:hover {
 #vk {
     position: relative;
     left: 30px;
+}
+#textabout {
+    list-style-type: none;
+    text-decoration: none;
+    overflow: hidden;
+    color: white;
+    
+}
+#textabout a:link {
+     text-decoration: none;
+     color: white;
+}
+#textabout a:visited {
+     text-decoration: none;
+     color: white;
+}
+#textabout a:hover {
+    color: #C0A062;
+     text-decoration: none;
 }

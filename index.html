@@ -34,7 +34,7 @@
             not only <b class="textabout">graphical work,</b> but also the <b class="textabout">frontend development</b> like 
             <b class="textabout">HTML & CSS, JS.</b> This personal web-site is my <b class="textabout">first project.</b>  </p>
             <p>&nbsp</p>
-            <p> Find out more <b class="textabout"> about me.</b> </p>
+            <p> Find out more <b class="textabout" id="textabout"> <a href="#about"> about me.</a> </b> </p>
 
         </div>
         <div>
@@ -75,16 +75,14 @@
             <div id="send"> <p> Send me a message: </p> </div>
             <div id="info"> <p> Information: </p> </div>
             <div id="form">
-                <form method="POST" action="https://formspree.io/dzenglyuk23@ukr.net">
-                    
+                <form>    
                     Your Name:<br>
-                    <input type="text" name="name"><br>
+                    <input type="text" id="name" name="name"><br>
                     Your Email:<br>
-                    <input type="text" name="email"><br>
+                    <input type="text" id="email" name="email"><br>
                     Your Message:<br>
-                    <input type="text" name="message" id="area"><br>
-                    <input type="submit" value="Send">
-                    
+                    <textarea></textarea>
+                    <input type="submit" id="submit" value="Send">
                 </form>
             </div>
         </div>
@@ -92,7 +90,7 @@
         <div id="mail"> Email: dzenglyuk23@ukr.net </div>
         <div class="icons">
             <a id="face" href="https://www.facebook.com/dzenglyuk"><img class="ico" src="img/facebook.png" alt="facebook" width='30' height='32'></a>
-            <a href=""><img class="ico" src="img/insta.png" alt="instagram" width='30' height='32'></a>
+            <a href="https://www.instagram.com/dzenglyuk_o/"><img class="ico" src="img/insta.png" alt="instagram" width='30' height='32'></a>
             <a id="vk" href="https://vk.com/dzenglyuk23"><img class="ico" src="img/vk.png" alt="vk" width='30' height='32'></a>
         </div>
 
@@ -106,5 +104,7 @@
         </div>
 
     </footer>
+    <script   src="https://code.jquery.com/jquery-3.0.0.min.js"   integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
